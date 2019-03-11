@@ -1,9 +1,14 @@
 import React from 'react';
+import PostList from './PostList';
 
 const App = () => {
     return (
         <div className="container">
-            App
+            <div className="row">
+                <div className="col-md-12">
+                    <PostList />
+                </div>
+            </div>
         </div>
     ); 
 };
